@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Yekan;
+  src: url("@/assets/fonts/YekanBakhFaNum-Regular.ttf");
+}
+
+*{
+  font-family: Yekan;
+}
+
+body,
+html {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.v-btn{
+  text-transform: none !important;
+}
